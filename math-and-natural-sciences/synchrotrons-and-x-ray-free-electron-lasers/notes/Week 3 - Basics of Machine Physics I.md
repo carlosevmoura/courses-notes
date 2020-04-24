@@ -10,18 +10,20 @@ Electromagnetic radiation is a perpendicular transverse wave.
 - All electromagnetic radiation has the same speed in vacuum, but **not** the same velocity
   - Velocity is a vector quantity which includes both a **magnitude and direction**; not all EM waves travel in the same direction.
 
-A linearly polarized electromagnetic plane wave propagating in the positive z-direction have its magnetic-field vector always rotated <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//99ef3b8955d89f8dd4969fabad08d310.svg?invert_in_darkmode" align=middle width=26.39850674999999pt height=24.65753399999998pt/> (90 degrees) clockwise relative to the electric-field vector.
+A linearly polarized electromagnetic plane wave propagating in the positive z-direction have its magnetic-field vector always rotated $\pi/2$ (90 degrees) clockwise relative to the electric-field vector.
 
 | <img src="images/electromagnetic-waves.png" width="500"> |
 |:--:|
 | *Pictorial representation of an electromagnetic field.* |
 
-The force of an electric field on an electron (<img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//20054dc2584952022d2ee2472ae75513.svg?invert_in_darkmode" align=middle width=20.85394904999999pt height=22.465723500000017pt/>):
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//26e7b733ab2287990e5b802487c10fab.svg?invert_in_darkmode" align=middle width=77.1152415pt height=13.698590399999999pt/></p>
+The force of an electric field on an electron ($F_E$):
+$$
+F_E = -eE
+$$
 
 - Where:
-  - <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//8cd34385ed61aca950a6b06d09fb50ac.svg?invert_in_darkmode" align=middle width=7.654137149999991pt height=14.15524440000002pt/> is the elementary charge;
-  - <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//84df98c65d88c6adf15d4645ffa25e47.svg?invert_in_darkmode" align=middle width=13.08219659999999pt height=22.465723500000017pt/> is the electric field amplitude;
+  - $e$ is the elementary charge;
+  - $E$ is the electric field amplitude;
 
 The force imparted by an electric field on an electron **always acts perpendicular** to the direction of propagation and in the opposite direction of the electric-field vector.
 
@@ -35,18 +37,24 @@ the north to south pole;
 circulate in a clockwise sense will have the north poles above the
 south poles;
 
-The magnetic Lorentz force (<img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//86ac8e546f063d714fafa3d2fe61d61e.svg?invert_in_darkmode" align=middle width=19.58912174999999pt height=22.465723500000017pt/>) is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//4deb86dfe33d1c8017d85f418e74a23c.svg?invert_in_darkmode" align=middle width=71.83406835pt height=13.698590399999999pt/></p>
+The magnetic Lorentz force ($F_L$) is given by:
+$$
+F_L = eBv
+$$
 
 - Where:
-  - <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode" align=middle width=13.29340979999999pt height=22.465723500000017pt/> is the magnetic field amplitude;
-  - <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//6c4adbc36120d62b98deef2a20d5d303.svg?invert_in_darkmode" align=middle width=8.55786029999999pt height=14.15524440000002pt/> is the electron velocity;
+  - $B$ is the magnetic field amplitude;
+  - $v$ is the electron velocity;
 
-From the classical electromagnetic theory, we have the relationship between <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//84df98c65d88c6adf15d4645ffa25e47.svg?invert_in_darkmode" align=middle width=13.08219659999999pt height=22.465723500000017pt/> and <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode" align=middle width=13.29340979999999pt height=22.465723500000017pt/>:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//1cf132432d0f416c1ad16041657aa0d3.svg?invert_in_darkmode" align=middle width=50.265827699999996pt height=33.62942055pt/></p>
+From the classical electromagnetic theory, we have the relationship between $E$ and $B$:
+$$
+B = \frac{E}{c}
+$$
 
-Using this expression, we can found the ratio between <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//86ac8e546f063d714fafa3d2fe61d61e.svg?invert_in_darkmode" align=middle width=19.58912174999999pt height=22.465723500000017pt/> and <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//20054dc2584952022d2ee2472ae75513.svg?invert_in_darkmode" align=middle width=20.85394904999999pt height=22.465723500000017pt/>:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//6f8d1322c19da881dc4e1d1d9844c22b.svg?invert_in_darkmode" align=middle width=68.88194445pt height=36.09514755pt/></p>
+Using this expression, we can found the ratio between $F_L$ and $F_E$:
+$$
+\frac{F_L}{F_E} = - \frac{v}{c}
+$$
 
 ## Why do accelerated charged particle emits light?
 
@@ -87,55 +95,77 @@ In this graph, a selection of synchrotron facilities has been chosen that cover 
 
 Because we know the speed of light is Nature’s ultimate speed limit, it’s clear
 we need to apply **relativity**. The relationship between the electrons’ relativistic kinetic energy (given by the storage-ring energy) and the velocity is given:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//d6f3135c86cf1630e025ef93782e748a.svg?invert_in_darkmode" align=middle width=119.36210055pt height=43.07690145pt/></p>
+$$
+\epsilon = \frac{mc^2}{\sqrt{1-(v/c)^2}}
+$$
 
-An important parameter is the gamma (<img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//11c596de17c342edeed29f489aa4b274.svg?invert_in_darkmode" align=middle width=9.423880949999988pt height=14.15524440000002pt/>), defined as the ratio between the electrons' kinetic energy and the rest mass energy of the electron:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//61b36cd059726e40e127b0439d6450f0.svg?invert_in_darkmode" align=middle width=167.56991295pt height=29.47417935pt/></p>
-And <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//8217ed3c32a785f0b5aad4055f432ad8.svg?invert_in_darkmode" align=middle width=10.16555099999999pt height=22.831056599999986pt/>, which is the ratio between the electron speed and the speed of light:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//aba07e734c1352fd45d2bbac3081dcee.svg?invert_in_darkmode" align=middle width=131.99609775pt height=39.452455349999994pt/></p>
+An important parameter is the gamma ($\gamma$), defined as the ratio between the electrons' kinetic energy and the rest mass energy of the electron:
+$$
+\gamma = \frac{\epsilon}{mc^2} = 1957 \epsilon [\mathrm{GeV}]
+$$
+And $\beta$, which is the ratio between the electron speed and the speed of light:
+$$
+\beta = \frac{v}{c} = \sqrt{1 - \frac{1}{\gamma^2}}
+$$
 
 Using a Taylor series, it's possible to obtain this approximation:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//e83060b719cf07a5b9bd5953fa4ec976.svg?invert_in_darkmode" align=middle width=87.3836865pt height=36.1865163pt/></p>
+$$
+\beta \approx 1 - \frac{1}{2\gamma^2}
+$$
 
-At relativistic speed, **the electron mass grows** in a order of <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//96279d0dd3c3a81d873e6f4a051f5eec.svg?invert_in_darkmode" align=middle width=23.85696224999999pt height=14.15524440000002pt/> for a stationary observer, and the space becomes distorted.
+At relativistic speed, **the electron mass grows** in a order of $\gamma m$ for a stationary observer, and the space becomes distorted.
 
 | <img src="images/spatial-distribution.png" width="500"> |
 |:--:|
 | *Pictorial representation of spatial distribution of synchrotron light.* |
 
 
-The angular range of radiation scales is <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//7add4c9887c7af67f05998f047cbe90b.svg?invert_in_darkmode" align=middle width=25.862299649999994pt height=24.65753399999998pt/>. Even for medium-energy storage rings, the opening angle in both the horizontal and vertical planes is of the order of <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//8b9a9d10b2d8beb24bb71ab2033db15d.svg?invert_in_darkmode" align=middle width=49.31525609999999pt height=24.65753399999998pt/> of a radian. This means that, for a point source, the beam will have a lateral extent of approximately 4 mm at a distance of 20 m - **synchrotron radiation is very collimated**.
+The angular range of radiation scales is $1/\gamma$. Even for medium-energy storage rings, the opening angle in both the horizontal and vertical planes is of the order of $1/5000$ of a radian. This means that, for a point source, the beam will have a lateral extent of approximately 4 mm at a distance of 20 m - **synchrotron radiation is very collimated**.
 
 ---
 
 ## Centripetal Forces
 
 In the storage ring, the centripetal acceleration is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//beaf9df2d20f51dff55a9a86fb808d6c.svg?invert_in_darkmode" align=middle width=88.86274815pt height=38.973783749999996pt/></p>
+$$
+a = \frac{v^2}{\rho} \approx \frac{c^2}{\rho}
+$$
 
 So, the force is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//54ecfd6908744e6540ee31a84e04006d.svg?invert_in_darkmode" align=middle width=75.08936985pt height=38.973783749999996pt/></p>
+$$
+F = \gamma \frac{mc^2}{\rho}
+$$
 
 Electric fields as a steering mechanism is **impossibly hazardous**. Then, we use magnetic fields.
 
-The bending radius <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//6dec54c48a0438a5fcde6053bdb9d712.svg?invert_in_darkmode" align=middle width=8.49888434999999pt height=14.15524440000002pt/> is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//5b73980a128e3f2cd5b8dfae21c88a70.svg?invert_in_darkmode" align=middle width=117.28405095pt height=33.62942055pt/></p>
+The bending radius $\rho$ is given by:
+$$
+\rho = \gamma \frac{mc}{eB} = \frac{E}{ceB}
+$$
 
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//181808b45e01c5d2839665f6a60fefd8.svg?invert_in_darkmode" align=middle width=135.3584595pt height=38.83491479999999pt/></p>
+$$
+\rho [\mathrm{m}] = 3.3  \frac{\epsilon}{B} \frac{[\mathrm{GeV}]}{[\mathrm{T}]}
+$$
 
 ## Bending-Magnets Radiation
 
 The spectrum and intensity of bending-magnet radiation depends on several parameters.
 
 Considering the orbit's circumference as perfectly circular, the angular frequency in a storage ring is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//379d68085e245275940e9d94da5a4f05.svg?invert_in_darkmode" align=middle width=173.63488725pt height=32.6705313pt/></p>
+$$
+\omega_0 = \frac{c}{\rho} \approx 3 \times 10^7 [\mathrm{rad/s}]
+$$
 
 And the critical frequency (a value associated with the synchrotron-radiation spectrum):
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//ef8def80efabfe422eccb143b7e7da96.svg?invert_in_darkmode" align=middle width=324.4218615pt height=36.82577085pt/></p>
+$$
+\omega_c = \frac{3}{2} \gamma^3 \omega_0 = \frac{3}{2} \gamma^3 \frac{c}{\rho} = \frac{3}{2} \gamma^3 \frac{eB}{m} \approx 10^{19} [\mathrm{rad/s}]
+$$
 
-- The critical energy is linearly proportional to <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode" align=middle width=13.29340979999999pt height=22.465723500000017pt/> and varies with the square of the storage-ring energy;
+- The critical energy is linearly proportional to $B$ and varies with the square of the storage-ring energy;
 
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//ae4ec58895db2ef22e0b2e7300850a50.svg?invert_in_darkmode" align=middle width=212.62525844999996pt height=18.312383099999998pt/></p>
+$$
+\hbar \omega_c [\mathrm{keV}] = 0.665 \epsilon^2 [\mathrm{GeV}] B [\mathrm{T}]
+$$
 
 Imagine an observer of the electron tangential to the bending magnet. From her perspective, the electron is first moving along the straight section upstream of the bending magnet with constant velocity - **it is not being accelerated, so we should not expect her to see any radiation**. But once the electron enters the gap between the dipole of the bending magnet, it experiences
 a pulse of centripetal acceleration towards the centre of the ring due to the magnetic field. This “pulse” of acceleration cannot be described by a single frequency, but instead is composed of a continuous spectrum of frequencies, and the electron will emit this in response.
@@ -151,14 +181,18 @@ a pulse of centripetal acceleration towards the centre of the ring due to the ma
 ### Radiation power by bending Magnets
 
 The total integrated radiative power output of a bending magnet is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//6c162236b4cee8290a64d81e21d332b6.svg?invert_in_darkmode" align=middle width=268.7389716pt height=18.312383099999998pt/></p>
+$$
+P [\mathrm{kW}] = 1.266 \epsilon^2 [\mathrm{GeV}] B^2 [\mathrm{T}] L [\mathrm{m}] I [\mathrm{A}]
+$$
 
-- Where <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//ddcb483302ed36a59286424aa5e0be17.svg?invert_in_darkmode" align=middle width=11.18724254999999pt height=22.465723500000017pt/> is the length of the electron path passing between the magnet poles;
+- Where $L$ is the length of the electron path passing between the magnet poles;
 
 ## Stored Energy and Power in the Storage Ring
 
-The stored energy is their kinetic energy <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//84df98c65d88c6adf15d4645ffa25e47.svg?invert_in_darkmode" align=middle width=13.08219659999999pt height=22.465723500000017pt/>, or storage-ring energy, multiplied by the number of electrons within the ring at any one time:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//8e4f1d1ce2754b577b842ee24ef1c55b.svg?invert_in_darkmode" align=middle width=356.55217455pt height=18.312383099999998pt/></p>
+The stored energy is their kinetic energy $E$, or storage-ring energy, multiplied by the number of electrons within the ring at any one time:
+$$
+E \times I = 3 \times 10^9 \mathrm{eV} \times 0.4 \mathrm{A} = 1.2 \times 10^9 \mathrm{W} (1.2 \mathrm{GW})
+$$
 
 ### Power loss through radiation
 
@@ -180,13 +214,15 @@ A very particular time window of the RF cycle is suited to bringing the electron
 | *Representation of RF cavity in Storage Rings.* |
 
 The number of electrons within any one bunch is equal to the current divided by the product of the RF frequency and  the elementary charge:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//5dbd18cd1f61ca51ab36ee2ab1f5e690.svg?invert_in_darkmode" align=middle width=161.20203495pt height=36.82577085pt/></p>
+$$
+\frac{I}{fe} = 5 \times 10^9 \; \mathrm{electrons}
+$$
 
 ### Summary
 
 - Only a magnetic Lorentz force is a reasonable way of steering electrons into a closed path in a storage ring;
 
-- The characteristic, or critical frequency <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//7c0d9ad2211ba0ed83e5142873f20a19.svg?invert_in_darkmode" align=middle width=16.106783549999992pt height=14.15524440000002pt/> and energy <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//4de75ed216192edb8dad4627fd34c285.svg?invert_in_darkmode" align=middle width=18.00937214999999pt height=22.465723500000017pt/> were determined and shown to depend on the square of the storage-ring energy and linearly with the bending-magnet field strength;
+- The characteristic, or critical frequency $\omega_c$ and energy $E_c$ were determined and shown to depend on the square of the storage-ring energy and linearly with the bending-magnet field strength;
 
 - The radiative power generated by bending magnets and thus by the whole storage ring (excluding other components such as insertion devices) was determined and shown to be a small fraction of the power stored within the ring;
 

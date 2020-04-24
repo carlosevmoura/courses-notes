@@ -42,18 +42,24 @@ XPS and UPS, the electrons are directly **promoted into the vacuum** and their s
 
 ### Energy Balance and Transition Probabilities
 
-Transition probabilities between states <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.663225699999989pt height=21.68300969999999pt/> and <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//190083ef7a1625fbc75f243cffb9c96d.svg?invert_in_darkmode" align=middle width=9.81741584999999pt height=22.831056599999986pt/>, or intensities, are proportional to the dipole transition integral, according to quantum mechanics selection rules:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//f7d813f26e18f18b1df61c851d8447d5.svg?invert_in_darkmode" align=middle width=165.2339337pt height=18.905967299999997pt/></p>
+Transition probabilities between states $i$ and $f$, or intensities, are proportional to the dipole transition integral, according to quantum mechanics selection rules:
+$$
+P_{if} \propto |< \psi_f | er | \psi_i >|^2
+$$
 
-The dipole operator is antisymmetric, then the product of <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//4e83dd3fdf21fb2c776887243a5f2a3a.svg?invert_in_darkmode" align=middle width=18.40768049999999pt height=22.831056599999986pt/> and <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//e79c36bea376d2763ba9ecf055fc6331.svg?invert_in_darkmode" align=middle width=15.35871314999999pt height=22.831056599999986pt/> should be antisymmetric too (or the intensity will be zero).
+The dipole operator is antisymmetric, then the product of $\psi_f$ and $\psi_i$ should be antisymmetric too (or the intensity will be zero).
 
 | <img src="images/photoelectrons.png" width="300"> |
 |:--:|
-| *Representation of the energy of a photoelectron <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//5468de89d5c18996b028459ac762221c.svg?invert_in_darkmode" align=middle width=18.37163789999999pt height=22.465723500000017pt/>.* |
+| *Representation of the energy of a photoelectron $E_e$.* |
 
-The wavelength <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//799633388aba5dac414790ecd2669f80.svg?invert_in_darkmode" align=middle width=15.82600139999999pt height=22.831056599999986pt/> of an photoelectron, which depends of the binding energy <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//4f6e36f65fdb26b99c365e9e63714193.svg?invert_in_darkmode" align=middle width=22.627360799999988pt height=22.465723500000017pt/> of the material, the is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//b80effc0edd7194a7562808bb231609e.svg?invert_in_darkmode" align=middle width=227.29210185pt height=37.0084374pt/></p>
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//729a19581539a615f0b96b31678521ae.svg?invert_in_darkmode" align=middle width=126.62673704999999pt height=40.289634pt/></p>
+The wavelength $\lambda_e$ of an photoelectron, which depends of the binding energy $E_B$ of the material, the is given by:
+$$
+\lambda_e = \frac{h}{p} = h[2m_e(h\nu-E_B)]^{-1/2}
+$$
+$$
+\lambda_e [\mathrm{\unicode{xC5}}] = \frac{12.28}{\sqrt{E_e [\mathrm{eV}]}}
+$$
 
 | <img src="images/absorption-edges.png" width="500"> |
 |:--:|
@@ -63,13 +69,13 @@ The soft- tender- and hard-x-ray regimes are shown in yellow, green, and blue, r
 
 ### Inelastic Mean Free Path (IMFP) and the Universal Curve
 
-An important parameter is the inelastic mean free path which is the distance through which an electron must pass in a material before it is scattered inelastically with a probability of <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//1a644211b7fd26ea78b4723cd2db10ef.svg?invert_in_darkmode" align=middle width=137.7908532pt height=24.65753399999998pt/>.
+An important parameter is the inelastic mean free path which is the distance through which an electron must pass in a material before it is scattered inelastically with a probability of $\Lambda = 1 - 1/e = 63\%$.
 
 When an electron has high energies, its small de-Broglie wavelength means that it has a smaller effective cross-section and larger IMFP.
 
 The dominant mechanism to induce **inelastic scatter of electrons** is through excitation of so-called “**plasmons**”, or collective oscillations of electrons in the material.
 
-- At energies much lower than <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//2d0c8b66c850a2c7cb6cce0abf8625b2.svg?invert_in_darkmode" align=middle width=40.86757289999999pt height=22.465723500000017pt/>, the electron has insufficient energy to excite these plasmon modes, and the inelastic mean free path increases rapidly;
+- At energies much lower than $10 \; \mathrm{eV}$, the electron has insufficient energy to excite these plasmon modes, and the inelastic mean free path increases rapidly;
 - Between approximately 10 and a few hundred to a thousand eV, the IMFP takes on values of a few Angstroms to ten or so Angstroms. This is of the order of the top few atomic layers of the sample, and hence techniques that record such photoelectrons are in general highly surface sensitive;
 
 | <img src="images/universal-curve.png" width="450"> |
@@ -102,7 +108,7 @@ In **insulators**, the band gap is so large that effectively **no electrons** ca
 
 - Monochromatic synchrotron radiation is allowed to impinge on a sample;
 - X-ray absorption spectra can be performed by measuring the amount of light that passes through a thin sample;
-- The x-ray intensities before entering the sample (<img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//88fbd05154e7d6a65883f20e1b18a817.svg?invert_in_darkmode" align=middle width=13.77859724999999pt height=22.465723500000017pt/>) and after (<img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//21fd4e8eecd6bdf1a4d3d6bd1fb8d733.svg?invert_in_darkmode" align=middle width=8.515988249999989pt height=22.465723500000017pt/>) are measured using ionization chambers (IC) or other beam-intensity monitors (suited for samples that cannot be placed in vacuum);
+- The x-ray intensities before entering the sample ($I_0$) and after ($I$) are measured using ionization chambers (IC) or other beam-intensity monitors (suited for samples that cannot be placed in vacuum);
 - The total electron current through an ammeter between the sample and ground can also be used to indirectly determine the absorption spectrum. In this case, the sample and detectors must be in vacuum;
 - X-ray fluorescence spectra can be recorded, either using a crystal monochromator (XM) in wavelength-dispersive spectra (WDX), or by using a dispersive solid-state semiconductor device (EDX);
   - The integrated fluorescence yield can also be used as a measure of absorption strength.
@@ -129,7 +135,7 @@ The lowest-energy XANES signals occur below the absorption edge, and are referre
 |:--:|
 | *Examples of the application of XANES to 5d metals.* |
 
-The ground-state electronic configuration of Re is that of [Xe], plus <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//73fe64dc7ee4e43abc3e1cdfec1c0102.svg?invert_in_darkmode" align=middle width=78.59049329999999pt height=26.76175259999998pt/>. As one moves to the right in the periodic table, the remaining five available 5d-states are filled. In gold, these states are fully occupied.
+The ground-state electronic configuration of Re is that of [Xe], plus $6s^2 4f^{14} 5d^5$. As one moves to the right in the periodic table, the remaining five available 5d-states are filled. In gold, these states are fully occupied.
 
 - In the elements Re to Pt, the bound but unoccupied 5d-states, which are below the ionization threshold, are seen as intense peaks, though this become weaker as the d-orbitals are successively filled;
 - As gold has no such unoccupied states, excitation is necessarily directly into the unbound continuum, and its XANES spectrum is consequently much flatter;
@@ -138,7 +144,7 @@ The ground-state electronic configuration of Re is that of [Xe], plus <img src="
 |:--:|
 | *Example of the application of XANES to study the spatial orientation of molecules.* |
 
-XANES can also be applied to investigate spatial orientation of molecules in a surface. It's possible to evaluate the orientation by the excitations related to <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//8cda31ed38c6d59d14ebefa440099572.svg?invert_in_darkmode" align=middle width=9.98290094999999pt height=14.15524440000002pt/> and <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//f30fdded685c83b0e7b446aa9c9aa120.svg?invert_in_darkmode" align=middle width=9.96010619999999pt height=14.15524440000002pt/> bonds.
+XANES can also be applied to investigate spatial orientation of molecules in a surface. It's possible to evaluate the orientation by the excitations related to $\sigma$ and $\pi$ bonds.
 
 ### Scanning transmission x-ray microscopy: STXM
 
@@ -185,13 +191,13 @@ and spin down in the valence band.
 
 To obtain the XMC signal, one uses circularly polarized light.
 
-In the case of domain 1, an incident RCP photon has its orbital angular momentum pointing forwards levels. The opposite case arises for LCP photons, whereby the <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//be14e7da0eb97feff27ea74124b74ec1.svg?invert_in_darkmode" align=middle width=36.33006464999999pt height=21.18721440000001pt/> states are favoured. If we focus on region 2, the spin-down 3d-sub-band is shifted to higher energies than the spin-up sub-band.
+In the case of domain 1, an incident RCP photon has its orbital angular momentum pointing forwards levels. The opposite case arises for LCP photons, whereby the $2p_{1/2}$ states are favoured. If we focus on region 2, the spin-down 3d-sub-band is shifted to higher energies than the spin-up sub-band.
 
 ## Extended x-ray absorption fine structure: EXAFS
 
 EXAFS begins approximately 50 eV above the absorption edge and consists of oscillations in the absorption up to as far as a keV above the edge.
 
-EXAFS probes electrons with wavelengths of the order of <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//6793dedac02b50b966c382b94ac256d7.svg?invert_in_darkmode" align=middle width=21.00464354999999pt height=21.18721440000001pt/> to <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//2aa6ddcc3757f5a13637084d606bc898.svg?invert_in_darkmode" align=middle width=56.10957659999999pt height=22.465723500000017pt/>, similar to if slightly smaller than interatomic distances. The mean-free path of electrons in this range is short, of the order of a few Angstroms, hence EXAFS only probes the immediate neighbourhood of the absorbing atom.
+EXAFS probes electrons with wavelengths of the order of $0.4$ to $1.5 \; \unicode {xC5}$, similar to if slightly smaller than interatomic distances. The mean-free path of electrons in this range is short, of the order of a few Angstroms, hence EXAFS only probes the immediate neighbourhood of the absorbing atom.
 
 EXAFS is an important technique in noncrystalline solids and liquids, as it yields information of the short-range structure.
 
@@ -200,15 +206,17 @@ EXAFS is an important technique in noncrystalline solids and liquids, as it yiel
 | *Representation of EXAFS processes.* |
 
 EXAFS is caused by single backscattering events by nearest-neighbour atoms of the outgoing photoelectron produced through x-ray absorption. The scattered waves interfere with the original photoelectron wave, which results in a change
-in the electron density at the absorbing atom and consequently leads to a modulation of the absorption strength <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//dba8e61400936dbc9ed8333cbcc935a5.svg?invert_in_darkmode" align=middle width=35.77253459999999pt height=24.65753399999998pt/> as the photon energy is scanned.
+in the electron density at the absorbing atom and consequently leads to a modulation of the absorption strength $\mu(E)$ as the photon energy is scanned.
 
-The most important parameters in addition to the atomic absorption coefficient <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//07617f9d8fe48b4a7b3f523d6730eef0.svg?invert_in_darkmode" align=middle width=9.90492359999999pt height=14.15524440000002pt/> are the **electron wavelength** <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//799633388aba5dac414790ecd2669f80.svg?invert_in_darkmode" align=middle width=15.82600139999999pt height=22.831056599999986pt/>, the number and type of nearest neighbours, and the distance <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode" align=middle width=12.60847334999999pt height=22.465723500000017pt/> between the absorbing atom and neighbouring atoms.
+The most important parameters in addition to the atomic absorption coefficient $\mu$ are the **electron wavelength** $\lambda_e$, the number and type of nearest neighbours, and the distance $R$ between the absorbing atom and neighbouring atoms.
 
 - The EXAFS oscillatory signal increases with the number of neighbours in a given shell;
 - The oscillation period dilates with decreasing shell radius;
 
 The EXAFS Function is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//5cc4bf8545754e55f89e6250ff06f503.svg?invert_in_darkmode" align=middle width=393.93425114999997pt height=45.0819171pt/></p>
+$$
+\chi^{\mathrm{iso}}(k) = \sum_j N_j \frac{t_j(k) \sin(2kR_j + \delta_j(k))}{R^2_j} e^{-2k^2\sigma^2_j} e^{-2R_j/\Lambda}
+$$
 
 #### Time-Resolved Versions: QEXAFS and EDXAS
 
@@ -258,7 +266,7 @@ Techniques based on the Photoelectric Effect, where an electron (called photoele
 
 ### Angle-Resolved PES: ARPES
 
-ARPES attempts to determine the electron kinetic energies as a function of angle. With this information, the electrons’ momenta <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//8ec35ba8dc7d424198d79d73a2d5c225.svg?invert_in_darkmode" align=middle width=15.724938899999989pt height=14.15524440000002pt/>, <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//adcc0b19985e2c5b30513442e0347545.svg?invert_in_darkmode" align=middle width=15.350174399999991pt height=14.15524440000002pt/>, and <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs//bf7337c2909b842d61500c607c06897d.svg?invert_in_darkmode" align=middle width=15.022924949999991pt height=14.15524440000002pt/> can be accessed, which should lead to a complete picture of the electronic structure.
+ARPES attempts to determine the electron kinetic energies as a function of angle. With this information, the electrons’ momenta $p_x$, $p_y$, and $p_z$ can be accessed, which should lead to a complete picture of the electronic structure.
 
 Synchrotron radiation provides two further variables excluded to lab-based ARPES experiments, namely the possibility of tuning the incident photon energy and the possibility of varying the polarization.
 
