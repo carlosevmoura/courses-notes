@@ -45,7 +45,7 @@ The primary optics typically include one or more mirrors which may or may not al
 |:--:|
 | *Reflection in X-Ray Mirrors.* |
 
-Even the most collimated synchrotron beam has a finite cross-section, with a height typically of the order of a millimeter at the primary optics, which may be $20 m$ or further downstream of the source. This means, **as the photon energy increases, the critical angle gets smaller**, and the footprint of the beam becomes longer as one is forced to reduce the incident angle.
+Even the most collimated synchrotron beam has a finite cross-section, with a height typically of the order of a millimeter at the primary optics, which may be <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/2f185bf117164cae1d52129c835645a9.svg?invert_in_darkmode" align=middle width=30.87151979999999pt height=21.18721440000001pt/> or further downstream of the source. This means, **as the photon energy increases, the critical angle gets smaller**, and the footprint of the beam becomes longer as one is forced to reduce the incident angle.
 
 | <img src="images/harmonic-suppression.png" width="600"> |
 |:--:|
@@ -63,8 +63,8 @@ This does not mean the surface needs to be atomically flat without any imperfect
 
 Ellipses and parabolas are conic sections:
 
-- An ellipse is a section for which the sectional plane subtends an angle greater than $\phi$ with the cone axis, where $\phi$ is the opening half angle of the cone;
-- A parabola is described by the intersection between a cone and a plane for which the cone-axis - plane angle is exactly $\phi$;
+- An ellipse is a section for which the sectional plane subtends an angle greater than <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/f50853d41be7d55874e952eb0d80c53e.svg?invert_in_darkmode" align=middle width=9.794543549999991pt height=22.831056599999986pt/> with the cone axis, where <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/f50853d41be7d55874e952eb0d80c53e.svg?invert_in_darkmode" align=middle width=9.794543549999991pt height=22.831056599999986pt/> is the opening half angle of the cone;
+- A parabola is described by the intersection between a cone and a plane for which the cone-axis - plane angle is exactly <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/f50853d41be7d55874e952eb0d80c53e.svg?invert_in_darkmode" align=middle width=9.794543549999991pt height=22.831056599999986pt/>;
 
 | <img src="images/focussing-mirrors.png" width="600"> |
 |:--:|
@@ -76,7 +76,7 @@ Ellipses and parabolas are conic sections:
 |:--:|
 | *Limits to Focal Spot Size.* |
 
-The more focussed the beam $\Theta$, the smaller the focal spot, and the shorter the depth of field.
+The more focussed the beam <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/b35e24d8a08c0ab01195f2ad2a78fab7.svg?invert_in_darkmode" align=middle width=12.785434199999989pt height=22.465723500000017pt/>, the smaller the focal spot, and the shorter the depth of field.
 
 #### The Lensmaker Equation
 
@@ -84,29 +84,23 @@ The more focussed the beam $\Theta$, the smaller the focal spot, and the shorter
 |:--:|
 | *Explaining the Lensmaker Equation.* |
 
-The lensmaker equation states that the reciprocal of the focus of a lens, $1/f$, equals the sum of the reciprocals of the source - lens distance $p$ and lens - image distance $q$.
+The lensmaker equation states that the reciprocal of the focus of a lens, <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/e578120397295478bca9d9676483afdc.svg?invert_in_darkmode" align=middle width=26.25583454999999pt height=24.65753399999998pt/>, equals the sum of the reciprocals of the source - lens distance <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode" align=middle width=8.270567249999992pt height=14.15524440000002pt/> and lens - image distance <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/d5c18a8ca1894fd3a7d25f242cbe8890.svg?invert_in_darkmode" align=middle width=7.928106449999989pt height=14.15524440000002pt/>.
 
-$$
-\frac{1}{f} = \frac{1}{p} + \frac{1}{q}
-$$
+<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/d53e1cf85ea9eab52cb657c3525e83da.svg?invert_in_darkmode" align=middle width=76.20638355pt height=36.1865163pt/></p>
 
-The degree of magnification is $q/p$ - hence values greater than unity will blow up the image size compared to the source, while demagnification with $q/p$ less than one, will focus down the image to sizes smaller than the source.
+The degree of magnification is <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/470825b83bc4c6f28de45adc67324f4f.svg?invert_in_darkmode" align=middle width=24.41786324999999pt height=24.65753399999998pt/> - hence values greater than unity will blow up the image size compared to the source, while demagnification with <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/470825b83bc4c6f28de45adc67324f4f.svg?invert_in_darkmode" align=middle width=24.41786324999999pt height=24.65753399999998pt/> less than one, will focus down the image to sizes smaller than the source.
 
 #### Coddington's Equations
 
-The Coddington equations relate $p$, $q$ and $f$, with the bending radii $R_m$ and $R_s$.
+The Coddington equations relate <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/2ec6e630f199f589a2402fdf3e0289d5.svg?invert_in_darkmode" align=middle width=8.270567249999992pt height=14.15524440000002pt/>, <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/d5c18a8ca1894fd3a7d25f242cbe8890.svg?invert_in_darkmode" align=middle width=7.928106449999989pt height=14.15524440000002pt/> and <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/190083ef7a1625fbc75f243cffb9c96d.svg?invert_in_darkmode" align=middle width=9.81741584999999pt height=22.831056599999986pt/>, with the bending radii <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/efb1f850b314a66dafa69248c8088aed.svg?invert_in_darkmode" align=middle width=24.14632439999999pt height=22.465723500000017pt/> and <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/a7968fd86498dd93ad9dc7240e1ca4d7.svg?invert_in_darkmode" align=middle width=18.68584574999999pt height=22.465723500000017pt/>.
 
-- $R_m$ thus focusses in the transverse plane perpendicular to the bending plane, which in the case shown here is the vertical direction;
+- <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/efb1f850b314a66dafa69248c8088aed.svg?invert_in_darkmode" align=middle width=24.14632439999999pt height=22.465723500000017pt/> thus focusses in the transverse plane perpendicular to the bending plane, which in the case shown here is the vertical direction;
 
-$$
-R_m = \frac{2}{\sin \theta} \left( \frac{pq}{p+q} \right) = \frac{2}{\sin \theta} f
-$$
+<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/146e670f891b7b4d3d434baabbb224c3.svg?invert_in_darkmode" align=middle width=215.87873340000002pt height=39.452455349999994pt/></p>
 
-- $R_s$ is the sagittal bending radius required to focus in the direction perpendicular to the meridional focussing, here horizontally;
+- <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/a7968fd86498dd93ad9dc7240e1ca4d7.svg?invert_in_darkmode" align=middle width=18.68584574999999pt height=22.465723500000017pt/> is the sagittal bending radius required to focus in the direction perpendicular to the meridional focussing, here horizontally;
 
-$$
-R_s = 2 \sin \theta \left( \frac{pq}{p+q} \right)
-$$
+<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/b49827dc20b4d907c6a913b33d53e13c.svg?invert_in_darkmode" align=middle width=150.65580914999998pt height=39.452455349999994pt/></p>
 
 In general, the incident angles on dispersive monochromator elements is larger, and the meridional and sagittal radii less radically different from each other. A convenient shape for achieving sagittal and meridional focussing in one element is **the toroidal mirror**.
 
@@ -168,7 +162,7 @@ There's a strong correlation between photon energy and d-spacing. This should co
 Gratings can come in various flavours regarding their groove profiles. They're typically fabricated via advanced lithographic and etching techniques on glass
 substrates.
 
-In the case of a crystal, for which $d$ is a few Angstroms, interference of hard x-rays is between successive layers of atomic planes perpendicular to the scattering vector, which therefore follows the famous Bragg law.
+In the case of a crystal, for which <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/2103f85b8b1477f430fc407cad462224.svg?invert_in_darkmode" align=middle width=8.55596444999999pt height=22.831056599999986pt/> is a few Angstroms, interference of hard x-rays is between successive layers of atomic planes perpendicular to the scattering vector, which therefore follows the famous Bragg law.
 
 #### Spherical Grating Monochromators
 
@@ -212,7 +206,7 @@ An ideal detector would be able to:
 ### Noise
 
 Any stochastic or random process composed of a series of discrete events, such
-as the arrival of x-ray photons on to a detector element, is subject to statistical, or Poisson noise. If the average number of events in a measurement is $N$, then the scatter in the data is $+/- N^{1/2}$.
+as the arrival of x-ray photons on to a detector element, is subject to statistical, or Poisson noise. If the average number of events in a measurement is <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/f9c4988898e7f532b9f826a75014ed3c.svg?invert_in_darkmode" align=middle width=14.99998994999999pt height=22.465723500000017pt/>, then the scatter in the data is <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/e71c9556c201701d2dbf3baec8396d77.svg?invert_in_darkmode" align=middle width=75.93609044999998pt height=29.190975000000005pt/>.
 
 The careful experimenter must therefore decide how best to invest his or her precious beamtime: does improving the signal-to-noise ratio of a given signal by a factor of two, justify the necessary fourfold increase in acquisition times, or would this time be better invested in recording other data points?
 
