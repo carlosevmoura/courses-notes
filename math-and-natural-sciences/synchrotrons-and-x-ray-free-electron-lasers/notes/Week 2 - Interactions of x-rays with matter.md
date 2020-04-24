@@ -116,7 +116,7 @@ An electron in an atom will respond similarly, so:
   <p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/621a3b221a01e65252bd29eb73361665.svg?invert_in_darkmode" align=middle width=226.40295149999997pt height=16.438356pt/></p>
 
 - Where:
-    - $f_2$ lags $f_1$ by 90 degrees, which is mathematically expressed by it being an imaginary term;
+- <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/f6366b38f9364f745b5400c328e938d3.svg?invert_in_darkmode" align=middle width=14.60053319999999pt height=22.831056599999986pt/> lags <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/5872d29d239f95cc7a5f43cfdd14fdae.svg?invert_in_darkmode" align=middle width=14.60053319999999pt height=22.831056599999986pt/> by 90 degrees, which is mathematically expressed by it being an imaginary term;
     - Out-of-phase re-emission after absorption at resonance;
 
 The relationship between **<img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/f6366b38f9364f745b5400c328e938d3.svg?invert_in_darkmode" align=middle width=14.60053319999999pt height=22.831056599999986pt/> and Photoabsorption** is given by:
@@ -157,10 +157,10 @@ wave.
 <p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/2266139847c59107190102ef7b9aa557.svg?invert_in_darkmode" align=middle width=202.46015624999998pt height=16.438356pt/></p>
 
 - Where:
-    - $n_R$ is the real part, related to the **refraction**;
-    - $\delta$ is the Refractive-index decrement;
-    - $n_I$ is the imaginary part, related to **absorption**;
-    - $\beta$ is the absorption index;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/f2fd1912e9081b4d2d37830b585ad90d.svg?invert_in_darkmode" align=middle width=19.828693499999993pt height=14.15524440000002pt/> is the real part, related to the **refraction**;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/38f1e2a089e53d5c990a82f284948953.svg?invert_in_darkmode" align=middle width=7.928075099999989pt height=22.831056599999986pt/> is the Refractive-index decrement;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/21437f85a56ea744614c7077cad44a66.svg?invert_in_darkmode" align=middle width=16.58724539999999pt height=14.15524440000002pt/> is the imaginary part, related to **absorption**;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/8217ed3c32a785f0b5aad4055f432ad8.svg?invert_in_darkmode" align=middle width=10.16555099999999pt height=22.831056599999986pt/> is the absorption index;
 
 It can be related to the Atomic Factor (<img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/190083ef7a1625fbc75f243cffb9c96d.svg?invert_in_darkmode" align=middle width=9.81741584999999pt height=22.831056599999986pt/>) by the following expression:
 

@@ -50,8 +50,8 @@ Normally, however, one characterizes x-rays by their photon energy *E* rather th
 <p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/864a3bea99b91f391d2918f35b41a807.svg?invert_in_darkmode" align=middle width=53.5573236pt height=33.81208709999999pt/></p>
 
 - Where:
-    - $h = 6.626 \times 10^{-34} \mathrm{J}.\mathrm{s}$ is the Plank's constant;
-    - $c = 2.9979 \times 10^8 \; \mathrm{m}/\mathrm{s}^{-1}$ is the speed of light in vacuum;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/e27c789a1a92f044ff392ab69efaaad7.svg?invert_in_darkmode" align=middle width=149.06018655pt height=26.76175259999998pt/> is the Plank's constant;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/84ae3fe1240f10d21af189bbebb252e8.svg?invert_in_darkmode" align=middle width=168.39235874999997pt height=26.76175259999998pt/> is the speed of light in vacuum;
 
 In the hardest (the most energetic) x-rays used in synchrotron science (wavelengths of picometers), photon energies are of the order of  <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/a6d70822ce7ce3180398ce6fe9699e09.svg?invert_in_darkmode" align=middle width=49.086929099999985pt height=26.76175259999998pt/>. Then, we use **electron-volts** as a unit of energy.
 
@@ -141,11 +141,11 @@ emission;
 <p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/67d682324f51c011ea2058538acf7211.svg?invert_in_darkmode" align=middle width=210.08504384999998pt height=34.177354199999996pt/></p>
 
 - Where:
-    - $B$ is brilliance;
-    - $n_{\mathrm{photons}}$ is the number of photons;
-    - $\epsilon_x$ is the emittance in horizontal direction;
-    - $\epsilon_y$ is the emittance in vertical direction;
-    - $0.1\% \mathrm{BW}$ corresponds to 0.1% of the bandwidth of the central wavelength (dimensionless)
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/61e84f854bc6258d4108d08d4c4a0852.svg?invert_in_darkmode" align=middle width=13.29340979999999pt height=22.465723500000017pt/> is brilliance;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/e85ea1c0dc3ae86c37fe2f107baa5903.svg?invert_in_darkmode" align=middle width=55.09771904999999pt height=14.15524440000002pt/> is the number of photons;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/07fde696c53085ba03d64b821950d4bc.svg?invert_in_darkmode" align=middle width=14.12676374999999pt height=14.15524440000002pt/> is the emittance in horizontal direction;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/9694485939be6266854e3f3e63126e95.svg?invert_in_darkmode" align=middle width=13.751997599999989pt height=14.15524440000002pt/> is the emittance in vertical direction;
+  - <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/e1f58a1ecc54bc54f9f64913ffdfe212.svg?invert_in_darkmode" align=middle width=63.47051699999999pt height=24.65753399999998pt/> corresponds to 0.1% of the bandwidth of the central wavelength (dimensionless)
 
 <p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/math-and-natural-sciences/synchrotrons-and-x-ray-free-electron-lasers/notes/svgs/02c0422be587b544e627726401ab3c63.svg?invert_in_darkmode" align=middle width=288.1426548pt height=36.8648742pt/></p>
 
