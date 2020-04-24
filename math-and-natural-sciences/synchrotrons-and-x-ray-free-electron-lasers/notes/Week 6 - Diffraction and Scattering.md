@@ -19,7 +19,7 @@ Main reason to profit is the **High Brilliance**, which can be separated as:
   - High angular resolution scattering
   - Diffraction patterns
 - Tight Focus
-  - Small sample sizes (protein crystals have <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/8a85b02d1a89030681c0f4fa1ebd802e.svg?invert_in_darkmode" align=middle width=32.55723404999999pt height=21.18721440000001pt/>)
+  - Small sample sizes (protein crystals have <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/8a85b02d1a89030681c0f4fa1ebd802e.svg?invert_in_darkmode" align=middle width=32.55723404999999pt height=21.18721440000001pt/>)
 - Low Emittance
   - Large working distance
   - Bulky sample environments
@@ -48,12 +48,12 @@ The larger the separation between the scatterers, the smaller their angular sepa
 |:--:|
 | *Examples of diffraction patterns.* |
 
-The scattering vector <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/1afcdb0f704394b16fe85fb40c45ca7a.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/> was defined previously as the difference between the incoming and scattered wavelengths:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/cfe7545edfe9546042b0eb9ca7e3cf73.svg?invert_in_darkmode" align=middle width=173.05325399999998pt height=32.990165999999995pt/></p>
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/0bdb3a2e1c8afa7e40f4b321bdc61e23.svg?invert_in_darkmode" align=middle width=208.383615pt height=19.68035685pt/></p>
+The scattering vector <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/1afcdb0f704394b16fe85fb40c45ca7a.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/> was defined previously as the difference between the incoming and scattered wavelengths:
+<p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/cfe7545edfe9546042b0eb9ca7e3cf73.svg?invert_in_darkmode" align=middle width=173.05325399999998pt height=32.990165999999995pt/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/0bdb3a2e1c8afa7e40f4b321bdc61e23.svg?invert_in_darkmode" align=middle width=208.383615pt height=19.68035685pt/></p>
 
-In terms of Miller indexes <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/cf245bbc0025a0f27025e0bf6a8cad9f.svg?invert_in_darkmode" align=middle width=23.77482854999999pt height=22.831056599999986pt/> (crystal surface structure):
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/d4c68555d1314aeffd1b396c3ebc8509.svg?invert_in_darkmode" align=middle width=74.58177705pt height=35.45589465pt/></p>
+In terms of Miller indexes <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/cf245bbc0025a0f27025e0bf6a8cad9f.svg?invert_in_darkmode" align=middle width=23.77482854999999pt height=22.831056599999986pt/> (crystal surface structure):
+<p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/d4c68555d1314aeffd1b396c3ebc8509.svg?invert_in_darkmode" align=middle width=74.58177705pt height=35.45589465pt/></p>
 
 | <img src="images/ewald-sphere.png" width="500"> |
 |:--:|
@@ -61,7 +61,7 @@ In terms of Miller indexes <img src="https://rawgit.com/carlosevmoura/courses-no
 
 The **Ewald sphere** is applied to **reconstruct** the crystalline structure.
 
-In the figure, the incident beam points in the (000) direction, whereas the scattered beam, if at a Bragg peak defined by the Miller indices (<img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/cf245bbc0025a0f27025e0bf6a8cad9f.svg?invert_in_darkmode" align=middle width=23.77482854999999pt height=22.831056599999986pt/>), terminates on that Bragg maximum. The orientation of the crystal that will result in the <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/cf245bbc0025a0f27025e0bf6a8cad9f.svg?invert_in_darkmode" align=middle width=23.77482854999999pt height=22.831056599999986pt/> Bragg peak lighting up is when this point in the diffraction pattern sits on the Ewald sphere.
+In the figure, the incident beam points in the (000) direction, whereas the scattered beam, if at a Bragg peak defined by the Miller indices (<img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/cf245bbc0025a0f27025e0bf6a8cad9f.svg?invert_in_darkmode" align=middle width=23.77482854999999pt height=22.831056599999986pt/>), terminates on that Bragg maximum. The orientation of the crystal that will result in the <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/cf245bbc0025a0f27025e0bf6a8cad9f.svg?invert_in_darkmode" align=middle width=23.77482854999999pt height=22.831056599999986pt/> Bragg peak lighting up is when this point in the diffraction pattern sits on the Ewald sphere.
 
 **Rotating a crystal around an axis** while recording the pattern using an area detector, different Bragg maxima will light up and can be recorded, as shown schematically here. This is the basic approach to most single-crystal diffraction experiments.
 
@@ -118,7 +118,7 @@ For some materials, it may prove to be very difficult or indeed impossible to gr
 Powder diffraction not only provides a rapid and nondestructive means to identify the composite parts in multicomponent mixtures or complex system, but is also indispensable in extreme environmental studies, where phase changes are studied as a function of temperature and/or pressure.
 
 Because of the cylindrical symmetry of this method, all the necessary information can
-be recorded in a narrow strip of the rings, that is, along one coordinate, <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/f06574dcb619a95e8016371cead80e5a.svg?invert_in_darkmode" align=middle width=16.39273679999999pt height=22.831056599999986pt/>.
+be recorded in a narrow strip of the rings, that is, along one coordinate, <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/f06574dcb619a95e8016371cead80e5a.svg?invert_in_darkmode" align=middle width=16.39273679999999pt height=22.831056599999986pt/>.
 
 | <img src="images/debye-sherrer-rings.png" width="500"> |
 |:--:|
@@ -144,14 +144,14 @@ Provides informations about electron-density profiles, surface or interface roug
 |:--:|
 | *Representation of X-Ray Reflectivity.* |
 
-The reflectivity amplitude <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/89f2e0d2d24bcf44db73aab8fc03252c.svg?invert_in_darkmode" align=middle width=7.87295519999999pt height=14.15524440000002pt/> is given by the Fresnel equations for reflectivity and transmission, and is obtained the incident (<img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/c745b9b57c145ec5577b82542b2df546.svg?invert_in_darkmode" align=middle width=10.57650494999999pt height=14.15524440000002pt/>) and transmitted (<img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/416094f51a15e9295762f52b33c73615.svg?invert_in_darkmode" align=middle width=14.36645924999999pt height=24.7161288pt/>) angles across the surface:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/f2478aadff212222a65387db12ae6711.svg?invert_in_darkmode" align=middle width=77.61923895pt height=36.124496099999995pt/></p>
+The reflectivity amplitude <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/89f2e0d2d24bcf44db73aab8fc03252c.svg?invert_in_darkmode" align=middle width=7.87295519999999pt height=14.15524440000002pt/> is given by the Fresnel equations for reflectivity and transmission, and is obtained the incident (<img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/c745b9b57c145ec5577b82542b2df546.svg?invert_in_darkmode" align=middle width=10.57650494999999pt height=14.15524440000002pt/>) and transmitted (<img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/416094f51a15e9295762f52b33c73615.svg?invert_in_darkmode" align=middle width=14.36645924999999pt height=24.7161288pt/>) angles across the surface:
+<p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/f2478aadff212222a65387db12ae6711.svg?invert_in_darkmode" align=middle width=77.61923895pt height=36.124496099999995pt/></p>
 
-The reflectivity intensity <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode" align=middle width=12.60847334999999pt height=22.465723500000017pt/> is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/ab4dec0253472336a990f10dfa12cddc.svg?invert_in_darkmode" align=middle width=188.20878449999998pt height=41.3963847pt/></p>
+The reflectivity intensity <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/1e438235ef9ec72fc51ac5025516017c.svg?invert_in_darkmode" align=middle width=12.60847334999999pt height=22.465723500000017pt/> is given by:
+<p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/ab4dec0253472336a990f10dfa12cddc.svg?invert_in_darkmode" align=middle width=188.20878449999998pt height=41.3963847pt/></p>
 
-For angles significantly greater than <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/971651e87c9aebb6ec102860c98ae161.svg?invert_in_darkmode" align=middle width=16.390298099999992pt height=14.15524440000002pt/>:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/e22263d012f70031cc3caf0eca2872a1.svg?invert_in_darkmode" align=middle width=128.9347323pt height=35.77743345pt/></p>
+For angles significantly greater than <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/971651e87c9aebb6ec102860c98ae161.svg?invert_in_darkmode" align=middle width=16.390298099999992pt height=14.15524440000002pt/>:
+<p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/e22263d012f70031cc3caf0eca2872a1.svg?invert_in_darkmode" align=middle width=128.9347323pt height=35.77743345pt/></p>
 
 ### Surface Roughness
 
@@ -162,8 +162,8 @@ surface, even for roughnesses of the order of a few Angstroms.
 |:--:|
 | *Effects of Surface Roughness in the Reflectivity.* |
 
-The roughness can be described by a gaussian distribution, so the reflectivity intensity <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/649c8afa862e3f2dbe87261105cc769f.svg?invert_in_darkmode" align=middle width=18.93892274999999pt height=22.465723500000017pt/> is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/292a66eed492c999f1da96c979b5eb86.svg?invert_in_darkmode" align=middle width=131.43846704999999pt height=21.7480065pt/></p>
+The roughness can be described by a gaussian distribution, so the reflectivity intensity <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/649c8afa862e3f2dbe87261105cc769f.svg?invert_in_darkmode" align=middle width=18.93892274999999pt height=22.465723500000017pt/> is given by:
+<p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/292a66eed492c999f1da96c979b5eb86.svg?invert_in_darkmode" align=middle width=131.43846704999999pt height=21.7480065pt/></p>
 
 ### Thin Films
 
@@ -171,9 +171,9 @@ The roughness can be described by a gaussian distribution, so the reflectivity i
 |:--:|
 | *Effects of Film Thickness.* |
 
-It is essentially a restatement of Bragg’s law, where we approximate the <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/25bbb9d1d127005d100cb02b004ef24d.svg?invert_in_darkmode" align=middle width=33.49885109999999pt height=21.95701200000001pt/> with <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/c745b9b57c145ec5577b82542b2df546.svg?invert_in_darkmode" align=middle width=10.57650494999999pt height=14.15524440000002pt/> for the shallow angles, and the “d-spacing” is simply the film thickness Delta.
+It is essentially a restatement of Bragg’s law, where we approximate the <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/25bbb9d1d127005d100cb02b004ef24d.svg?invert_in_darkmode" align=middle width=33.49885109999999pt height=21.95701200000001pt/> with <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/c745b9b57c145ec5577b82542b2df546.svg?invert_in_darkmode" align=middle width=10.57650494999999pt height=14.15524440000002pt/> for the shallow angles, and the “d-spacing” is simply the film thickness Delta.
 
-This causes the reflectivity curve to exhibit oscillations known as “Kiessig fringes”. The separation between fringes is simply <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/b5d1eaf0c94aa37a7a498a06d5f29b1a.svg?invert_in_darkmode" align=middle width=39.72617384999999pt height=24.65753399999998pt/>.
+This causes the reflectivity curve to exhibit oscillations known as “Kiessig fringes”. The separation between fringes is simply <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/b5d1eaf0c94aa37a7a498a06d5f29b1a.svg?invert_in_darkmode" align=middle width=39.72617384999999pt height=24.65753399999998pt/>.
 
 ### Atomic-Resolution Film-Growth Monitoring
 
@@ -190,7 +190,7 @@ If the film grows in a layer-for-layer manner (called Frank van der Merwe growth
 
 X-ray scattering from larger objects up to about a micron in size can also provide important structural and dimensional information.
 
-The samples investigated using SAXS need not be crystalline. Scattering occurs, just as it does in x-ray reflectivity, through electron-density variations <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/1d8d47c164a8f41d614e9d51c3fa8e6f.svg?invert_in_darkmode" align=middle width=22.19755559999999pt height=22.465723500000017pt/>, and not from individual atoms, the case in diffraction.
+The samples investigated using SAXS need not be crystalline. Scattering occurs, just as it does in x-ray reflectivity, through electron-density variations <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/1d8d47c164a8f41d614e9d51c3fa8e6f.svg?invert_in_darkmode" align=middle width=22.19755559999999pt height=22.465723500000017pt/>, and not from individual atoms, the case in diffraction.
 
 Typical information extracted from SAXS include characteristic shapes and sizes, surface-area to volume ratios, and in special cases, the relationship between two well-defined sizes, such as between the radius and thickness of a circular platelet.
 
@@ -198,8 +198,8 @@ Typical information extracted from SAXS include characteristic shapes and sizes,
 |:--:|
 | *Representation of SAXS experimental setup.* |
 
-The scattering vector <img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/1afcdb0f704394b16fe85fb40c45ca7a.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/> is given by:
-<p align="center"><img src="https://rawgit.com/carlosevmoura/courses-notes/master/svgs/fe021256be4a1b87579b623e088392a8.svg?invert_in_darkmode" align=middle width=163.7987868pt height=33.81208709999999pt/></p>
+The scattering vector <img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/1afcdb0f704394b16fe85fb40c45ca7a.svg?invert_in_darkmode" align=middle width=12.99542474999999pt height=22.465723500000017pt/> is given by:
+<p align="center"><img src="https://raw.githubusercontent.com/carlosevmoura/courses-notes/master/svgs/fe021256be4a1b87579b623e088392a8.svg?invert_in_darkmode" align=middle width=163.7987868pt height=33.81208709999999pt/></p>
 
 ## Crystallography in XFELs
 
