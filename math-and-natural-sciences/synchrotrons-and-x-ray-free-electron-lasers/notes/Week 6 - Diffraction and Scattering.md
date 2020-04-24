@@ -53,7 +53,7 @@ $$
 Q = 2 |k| \sin{\theta} = \frac{4 \pi}{\lambda} \sin{\theta}
 $$
 $$
-Q[\mathrm{\unicode{xC5}^{-1}}] = 1.0135 E [\mathrm{KeV}] \sin{\theta}
+Q[\mathrm{\mathring A^{-1}}] = 1.0135 E [\mathrm{KeV}] \sin{\theta}
 $$
 
 In terms of Miller indexes $hkl$ (crystal surface structure):

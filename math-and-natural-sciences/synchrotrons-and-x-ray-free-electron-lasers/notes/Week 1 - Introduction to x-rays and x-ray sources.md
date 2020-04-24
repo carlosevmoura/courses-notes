@@ -1,5 +1,5 @@
 # Synchrotrons and X-Ray Free Electron Lasers
-# Week 1: Introduction to x-rays and x-ray sources
+# Week 1: Introduction to x-rays and x-ray sources  
 ## Users of Synchrotrons And Their Impact on Society
 
 **Synchrotrons** provide **intense sources of electromagnetic radiation** over broad ranges of wavelengths
@@ -45,30 +45,30 @@ In an electron storage ring of a synchrotron, the velocity of the electrons **re
 | *X-Ray regimes in a photon energy scale.* |
 
 ### X-Ray Units
-Normally, however, one characterizes x-rays by their photon energy *E* rather than their wavelength ![\lambda](https://render.githubusercontent.com/render/math?math=%5Clambda). The relationship between energy and wavelength is given by the Planck-Einstein relation:
+Normally, however, one characterizes x-rays by their photon energy *E* rather than their wavelength $\lambda$. The relationship between energy and wavelength is given by the Planck-Einstein relation:
 
-![E = \frac{hc}{\lambda}](https://render.githubusercontent.com/render/math?math=E%20%3D%20%5Cfrac%7Bhc%7D%7B%5Clambda%7D)
+$$ E = \frac{hc}{\lambda} $$
 
 - Where:
-    - ![h = 6.626 \times 10^{-34} \mathrm{J}.\mathrm{s}](https://render.githubusercontent.com/render/math?math=h%20%3D%206.626%20%5Ctimes%2010%5E%7B-34%7D%20%5Cmathrm%7BJ%7D.%5Cmathrm%7Bs%7D) is the Plank's constant;
-    - ![c = 2.9979 \times 10^8 \; \mathrm{m}/\mathrm{s}^{-1}](https://render.githubusercontent.com/render/math?math=c%20%3D%202.9979%20%5Ctimes%2010%5E8%20%5C%3B%20%5Cmathrm%7Bm%7D%2F%5Cmathrm%7Bs%7D%5E%7B-1%7D) is the speed of light in vacuum;
+    - $h = 6.626 \times 10^{-34} \mathrm{J}.\mathrm{s}$ is the Plank's constant;
+    - $c = 2.9979 \times 10^8 \; \mathrm{m}/\mathrm{s}^{-1}$ is the speed of light in vacuum;
 
-In the hardest (the most energetic) x-rays used in synchrotron science (wavelengths of picometers), photon energies are of the order of  ![10^{-13} \mathrm{J}](https://render.githubusercontent.com/render/math?math=10%5E%7B-13%7D%20%5Cmathrm%7BJ%7D). Then, we use **electron-volts** as a unit of energy.
+In the hardest (the most energetic) x-rays used in synchrotron science (wavelengths of picometers), photon energies are of the order of  $10^{-13} \mathrm{J}$. Then, we use **electron-volts** as a unit of energy.
 
-**1 Electron-Volt** (![\mathrm{eV}](https://render.githubusercontent.com/render/math?math=%5Cmathrm%7BeV%7D)) is the energy an electron gains if it is accelerated in a vacuum (no collisions) from a cathode plate to an anode plate which is ![1 \mathrm{V}](https://render.githubusercontent.com/render/math?math=1%20%5Cmathrm%7BV%7D) (![1.6022 \times 10^{-19} \mathrm{J}](https://render.githubusercontent.com/render/math?math=1.6022%20%5Ctimes%2010%5E%7B-19%7D%20%5Cmathrm%7BJ%7D)) more positive in potential;
+**1 Electron-Volt** ($\mathrm{eV}$) is the energy an electron gains if it is accelerated in a vacuum (no collisions) from a cathode plate to an anode plate which is $1 \mathrm{V}$ ($1.6022 \times 10^{-19} \mathrm{J}$) more positive in potential;
 
 Planck-Einstein equation in electron-volts and Angstroms:
-![E\[\mathrm{eV}\] = \frac{12398.4}{\lambda} \; \[\unicode{xC5}\]](https://render.githubusercontent.com/render/math?math=E%5B%5Cmathrm%7BeV%7D%5D%20%3D%20%5Cfrac%7B12398.4%7D%7B%5Clambda%7D%20%5C%3B%20%5B%5Cunicode%7BxC5%7D%5D)
+$$E[\mathrm{eV}] = \frac{12398.4}{\lambda} \; [\mathring A]$$
 
-The vacuum ultraviolet and soft x-rays produced at synchrotrons begin at 10 to 20 eV and continue up to approximately 2000 eV.
+The vacuum ultraviolet and soft x-rays produced at synchrotrons begin at $10$ to $20  \, \mathrm{eV}$ and continue up to approximately $2000 \, \mathrm{eV}$.
 
-- Hard x-rays begin at 4 keV;
+- Hard x-rays begin at $4 \, \mathrm{keV}$;
   - They are used in medicine and airports because of their vast penetration depths;
-- Tender regime spans the gap between 2-4 keV;
+- Tender regime spans the gap between $2-4 \; \mathrm{keV}$;
 
-Gray (Gy) is the **unit to describe absorption of x-rays**.
+Gray ($\mathrm{Gy}$) is the **unit to describe absorption of x-rays**.
 
-- 1 Gy is equal to one Joule of absorbed radiation energy per kilogram;
+- $1 \; \mathrm{Gy}$ is equal to one Joule of absorbed radiation energy per kilogram;
 
 ### X-Ray Properties
 
@@ -76,13 +76,13 @@ X-rays are considered **"nondestructive" radiation**, because allows seeing the 
 
 Hard x-rays have wavelengths comparable to or shorter than **typical distances between atoms** (bond lengths). This property of hard x-rays makes them useful in **investigating the atomic structures of materials**.
 
-- The shortest bond length is of the ![\mathrm{H}_2](https://render.githubusercontent.com/render/math?math=%5Cmathrm%7BH%7D_2) molecule: ![0.74 \; \unicode{xC5}](https://render.githubusercontent.com/render/math?math=0.74%20%5C%3B%20%5Cunicode%7BxC5%7D);
-  - Bonds between heavy elements can exceed ![3 \; \unicode{xC5}](https://render.githubusercontent.com/render/math?math=3%20%5C%3B%20%5Cunicode%7BxC5%7D) (4 keV);
-  - 10 keV x-radiation pass over carbon-carbon single, double, and triple bonds;
+- The shortest bond length is of the $\mathrm{H}_2$ molecule: $0.74 \; \mathring A$;
+  - Bonds between heavy elements can exceed $3 \; \mathring A$ ($4 \; \mathrm{keV}$);
+  - $10 \; \mathrm{keV}$ x-radiation pass over carbon-carbon single, double, and triple bonds;
 
 Hard x-rays have energies **similar to bonding energies of core electrons in atoms**.
 
-- The hard x-ray regime can access all elements with atomic numbers above ![Z = 20](https://render.githubusercontent.com/render/math?math=Z%20%3D%2020) (Calcium);
+- The hard x-ray regime can access all elements with atomic numbers above $Z = 20$ (Calcium);
   - This property can be exploited in hard x-ray spectroscopies and also in crystallography, to solve structures;
 
 | <img src="images/core-electrons-absorption.png" width="500"> |
@@ -138,16 +138,16 @@ emission;
 - Emanate from as small a source point as possible (source size);
 
 **Brilliance** Formula:
-![B = \frac{n_{\mathrm{photons}}}{\Delta t \times \epsilon_x \times \epsilon_y \times 0.1\% \mathrm{BW} }](https://render.githubusercontent.com/render/math?math=B%20%3D%20%5Cfrac%7Bn_%7B%5Cmathrm%7Bphotons%7D%7D%7D%7B%5CDelta%20t%20%5Ctimes%20%5Cepsilon_x%20%5Ctimes%20%5Cepsilon_y%20%5Ctimes%200.1%5C%25%20%5Cmathrm%7BBW%7D%20%7D)
+$$B = \frac{n_{\mathrm{photons}}}{\Delta t \times \epsilon_x \times \epsilon_y \times 0.1\% \mathrm{BW} }$$
 
 - Where:
-    - *B* is brilliance;
-    - ![n_{\mathrm{photons}}](https://render.githubusercontent.com/render/math?math=n_%7B%5Cmathrm%7Bphotons%7D%7D) is the number of photons;
-    - ![\epsilon_x](https://render.githubusercontent.com/render/math?math=%5Cepsilon_x) is the emittance in horizontal direction;
-    - ![\epsilon_y](https://render.githubusercontent.com/render/math?math=%5Cepsilon_y) is the emittance in vertical direction;
-    - 0.1 BW corresponds to 0.1% of the bandwidth of the central wavelength (dimensionless)
+    - $B$ is brilliance;
+    - $n_{\mathrm{photons}}$ is the number of photons;
+    - $\epsilon_x$ is the emittance in horizontal direction;
+    - $\epsilon_y$ is the emittance in vertical direction;
+    - $0.1\% \mathrm{BW}$ corresponds to 0.1% of the bandwidth of the central wavelength (dimensionless)
 
-![B = \frac{\mathrm{photons}}{\mathrm{second} \times \mathrm{mrad}^2 \times \mathrm{mm}^2 \times 0.1\% \mathrm{BW}}](https://render.githubusercontent.com/render/math?math=B%20%3D%20%5Cfrac%7B%5Cmathrm%7Bphotons%7D%7D%7B%5Cmathrm%7Bsecond%7D%20%5Ctimes%20%5Cmathrm%7Bmrad%7D%5E2%20%5Ctimes%20%5Cmathrm%7Bmm%7D%5E2%20%5Ctimes%200.1%5C%25%20%5Cmathrm%7BBW%7D%7D)
+$$B = \frac{\mathrm{photons}}{\mathrm{second} \times \mathrm{mrad}^2 \times \mathrm{mm}^2 \times 0.1\% \mathrm{BW}}$$
 
 | <img src="images/progress-brilliance.png" width="500"> |
 |:--:|
@@ -163,7 +163,7 @@ of the beam**.
 
 **X-ray free-electron lasers** are new sources of x-radiation, with peak brilliance approximately ten orders of magnitude higher still than modern synchrotrons.
 
-They produce trains of pulses with durations between a range 1-10 fs.
+They produce trains of pulses with durations between a range $1 - 10 \; \mathrm{fs}$.
 
 - This is over three orders of magnitude shorter than pulse lengths produced by synchrotrons, and **sufficiently short to follow chemical reactions as they occur in real-time**;
 
@@ -195,20 +195,20 @@ Synchrotrons and XFELs are thus **complementary** to one another.
 |:--:|
 | *Bandwidth illustration.* |
 
-Absolute BW is given by:
+Absolute $\mathrm{BW}$ is given by:
 
-![\mathrm{BW} = f_H - f_L](https://render.githubusercontent.com/render/math?math=%5Cmathrm%7BBW%7D%20%3D%20f_H%20-%20f_L)
+$$\mathrm{BW} = f_H - f_L$$
 
-To obtain the relative bandwidth $\% BW$ from absolute values of frequencies ![f_0](https://render.githubusercontent.com/render/math?math=f_0), ![f_L](https://render.githubusercontent.com/render/math?math=f_L) and ![f_H](https://render.githubusercontent.com/render/math?math=f_H):
+To obtain the relative bandwidth $\% BW$ from absolute values of frequencies $f_0$, $f_L$ and $f_H$:
 
-![% \mathrm{BW} = 100 \times \frac{f_H - f_L}{f_0} = 100 \times \frac{\mathrm{BW}}{f_0}](https://render.githubusercontent.com/render/math?math=%25%20%5Cmathrm%7BBW%7D%20%3D%20100%20%5Ctimes%20%5Cfrac%7Bf_H%20-%20f_L%7D%7Bf_0%7D%20%3D%20100%20%5Ctimes%20%5Cfrac%7B%5Cmathrm%7BBW%7D%7D%7Bf_0%7D)
+$$\% \mathrm{BW} = 100 \times \frac{f_H - f_L}{f_0} = 100 \times \frac{\mathrm{BW}}{f_0}$$
 
-So, for 0.1%, we have:
+So, for $0.1 \%$, we have:
 
-![0.1 \% \mathrm{BW} = 0.1 \times \frac{f_H - f_L}{f_0}](https://render.githubusercontent.com/render/math?math=0.1%20%5C%25%20%5Cmathrm%7BBW%7D%20%3D%200.1%20%5Ctimes%20%5Cfrac%7Bf_H%20-%20f_L%7D%7Bf_0%7D)
+$$0.1 \% \mathrm{BW} = 0.1 \times \frac{f_H - f_L}{f_0}$$
 
-Using energies instead of frequencies, the BW is given by:
+Using energies instead of frequencies, the $\mathrm{BW}$ is given by:
 
-![\mathrm{BW} = \Delta E](https://render.githubusercontent.com/render/math?math=%5Cmathrm%7BBW%7D%20%3D%20%5CDelta%20E)
+$$\mathrm{BW} = \Delta E$$
 
-![0.1 \% \mathrm{BW} = 0.1 \times \frac{\Delta E}{E_0}](https://render.githubusercontent.com/render/math?math=0.1%20%5C%25%20%5Cmathrm%7BBW%7D%20%3D%200.1%20%5Ctimes%20%5Cfrac%7B%5CDelta%20E%7D%7BE_0%7D)
+$$0.1 \% \mathrm{BW} = 0.1 \times \frac{\Delta E}{E_0}$$

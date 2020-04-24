@@ -58,7 +58,7 @@ $$
 \lambda_e = \frac{h}{p} = h[2m_e(h\nu-E_B)]^{-1/2}
 $$
 $$
-\lambda_e [\mathrm{\unicode{xC5}}] = \frac{12.28}{\sqrt{E_e [\mathrm{eV}]}}
+\lambda_e [\mathrm{\mathring A}] = \frac{12.28}{\sqrt{E_e [\mathrm{eV}]}}
 $$
 
 | <img src="images/absorption-edges.png" width="500"> |
