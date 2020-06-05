@@ -14,3 +14,6 @@ Sharing notes from courses and textbooks studies
 - [Python Básico (Curso em Vídeo)](programming/python-curso_em_video/python-curso_em_video.md): Introduction to Python Programming Language
 
 - [Python in High Performance Computing (FutureLearn)](programming/python_in_high_performance_computing/python_in_high_performance_computing.md): Learn how to analyse Python programmes and identify performance barriers to help you work more efficiently.
+
+### Random
+- [Learning How to Learn (Coursera)](random/learning-how-to-learn/learning-how-to-learn.md): Powerful mental tools to help you master tough subjects
